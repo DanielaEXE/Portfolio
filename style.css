@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(39, 22, 39);
+}
+h1 {
+    text-align:center;
+    color: rgb(250, 242, 137);
+    border-bottom: groove 5px rgb(245, 235, 96);
+    border-top: groove 5px rgb(245, 235, 96);
+}
+header, main, footer {
+    background-color: rgb(94, 55, 109);
+    margin: 10px;
+}
+main {
+    
+    padding: 10px;
+}
+table {
+    border: solid 2px rgb(245, 235, 96);
+}
+a {
+    color: rgb(245, 235, 96);
+    text-decoration: none;
+    opacity: 0.5;
+    margin: 10px;
+}
+a:hover {
+    opacity: 1;
+}
+h2 {
+    padding: 10px;
+    color: rgb(245, 235, 96);
+    text-align: center;
+}
+li {
+    color: rgb(245, 235, 96);
+    text-align: center;
+    padding: 15px;
+}
+p {
+    padding: 20px;
+    margin: 10px;
+    color: rgb(245, 235, 96);
+    font-size: 20px;
+}
+.sec {
+    opacity: 0;
+    color: orange;
+}
+.sec:hover {
+   opacity: 1; 
+}
+.sec::after {
+    content: url("https://i.ibb.co/6RFdC9gR/789faf949e6bfe27f9b38ad62d5c344a-1.jpg");
+    height: 10px;
+    width: 15px;
+}
+.text-big {
+    color: rgb(245, 235, 96);
+    font-size: 20px;
+    text-align: center;
+}
+
